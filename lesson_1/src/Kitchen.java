@@ -3,14 +3,19 @@
  */
 
 public class Kitchen {
-    void cookSoup(){
+    public static void main(String[] args){
+        System.out.println("main");
+        cookBreakfast();
+    }
+
+    static void cookSoup(){
         // Ctrl -D  - дублирование строки
         System.out.println("Boil water");
         System.out.println("...");
         System.out.println("done");
     }
 
-    void cookBreakfast(){
+    static void cookBreakfast(){
         System.out.println("Breakfast done");
     }
 
