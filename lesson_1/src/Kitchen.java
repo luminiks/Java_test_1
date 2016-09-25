@@ -6,6 +6,7 @@ public class Kitchen {
     public static void main(String[] args){
         System.out.println("main");
         cookBreakfast();
+        cookSoup();
     }
 
     static void cookSoup(){
