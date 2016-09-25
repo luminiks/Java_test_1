@@ -6,8 +6,12 @@ public class Kitchen {
     void cookSoup(){
         // Ctrl -D  - дублирование строки
         System.out.println("Boil water");
-        System.out.println("-------");
+        System.out.println("...");
         System.out.println("done");
+    }
+
+    void cookBreakfast(){
+        System.out.println("Breakfast done");
     }
 
 }
