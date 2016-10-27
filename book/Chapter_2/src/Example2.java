@@ -12,7 +12,7 @@ public class Example2 {
 
          num = num * 2;
 
-        System.out.println("Значение переменной num * 2 равно:");
+        System.out.print("Значение переменной num * 2 равно:");
         System.out.println(num);
     }
 }
